@@ -1,0 +1,80 @@
+
+.my-box{
+
+    border: 4px;
+    background-color: rgb(132, 184, 184);
+    padding: 100px;
+    margin: 15px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    
+}
+
+.timer {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.disco-active {
+    background: linear-gradient(
+        45deg,
+        #ff0000,
+        #ff00ff,
+        #0000ff,
+        #00ff00,
+        #ffff00
+    );
+
+    background-size: 400% 400%;
+
+    animation: disco 2s ease infinite;
+}
+
+@keyframes disco {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    min-width: 80px;
+
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    color: black;
+
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+    will-change: transform;
+    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.9s ease;
+
+}
+
+
