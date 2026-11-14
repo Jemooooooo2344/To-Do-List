@@ -1,0 +1,21 @@
+.yellow{
+    background-color: #afa34c;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.new{
+
+    transform: rotate(5.5deg);
+    transform: scaleX(0.25);
+    transform: scaleY(0.25);
+    transform: skewX(20deg);
+   transform: translate(10%, 2px)
+}
